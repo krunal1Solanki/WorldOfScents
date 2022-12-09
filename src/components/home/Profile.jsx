@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import me from '../../assets/burger1.png'
+import me from '../../assets/perfume1.jpg'
 import {MdDashboard} from 'react-icons/md'
 const Profile = () => {
   

@@ -1,5 +1,5 @@
 import React from "react";
-import burger1 from "../../assets/burger1.png"
+import burger1 from "../../assets/perfume1.jpg"
 
 const Users = () => {
   const arr = [1, 2, 3, 4];

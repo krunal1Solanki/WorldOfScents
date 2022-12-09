@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { RiFindReplaceLine } from "react-icons/ri";
-import burger1 from "../../assets/burger1.png";
+import perfume1 from "../../assets/perfume1.jpg";
 
 const About = () => {
   return (
@@ -10,15 +10,13 @@ const About = () => {
         <h1>About Us</h1>
 
         <article>
-          <h4>MBA Burger Wala</h4>
+          <h4>World Of Scents</h4>
           <p>
-            We are MBA Burger Wala. The place for most tasty burgers on the
-            enitre earth.
+            We make the world smell, Wonderful.
           </p>
 
           <p>
-            Explore the various type of food and burgers. Click below to see the
-            menu
+            Explore the various type of Scents. Click below to see the Scents.
           </p>
 
           <Link to="/">
@@ -30,7 +28,7 @@ const About = () => {
           <h2>Founder</h2>
           <article>
             <div>
-              <img src={burger1} alt="Founder" />
+              <img src={perfume1} alt="Founder" />
               <h3>Krunal Solanki</h3>
             </div>
 
