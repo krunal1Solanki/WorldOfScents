@@ -23,7 +23,7 @@ const Menu = () => {
                     itemNum={2}
                     perfumeSrc={perfume2}
                     price={74200}
-                    title="Xerjoff Lvory Route perfume" 
+                    title="Xerjoff Lvory P  erfume" 
                     handler={addToCart}
                  />
                  

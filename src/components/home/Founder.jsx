@@ -7,6 +7,7 @@ const Founder = () => {
     <section className='founder'>
         <motion.div>
             <h3> Hi i am, Krunal Solanki founder of World Of Scents</h3>
+            <br />
             <p> Want something fresh and new? A perfume is the best way to do that.</p>
         </motion.div>
     </section>

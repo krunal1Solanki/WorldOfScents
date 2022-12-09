@@ -59,3 +59,15 @@
         }
     }
 }
+@media screen and (max-width: 600px) {
+    .orderDetails > main > div {
+      > h1 {
+        font-size: 1.4rem;
+      }
+      > p {
+        letter-spacing: 1px;
+        font-size: 0.9rem;
+        margin: 2rem 0;
+      }
+    }
+  }

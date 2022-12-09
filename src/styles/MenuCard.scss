@@ -4,6 +4,8 @@
     width: 30%; 
     border-radius: 20px;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.495);
+    >main {
+    }
     > div {
         border-radius: 20px 20px 0 0;
         background-color: $red;
@@ -16,16 +18,17 @@
     > main > img {
         height: 15rem;
         width: 100%;
-        object-fit: contain;
-
-        
+        object-fit: contain;        
     }
     
     main > h5 {
+        margin-left: 5px;
+
         font-size: 1.9rem;
     }
 
     main > p {
+        margin-left: 5px;
         text-transform: uppercase;
         letter-spacing: 2px;
         padding: 1 rem 0;
@@ -35,8 +38,9 @@
         background-color: $red;
         color: white;
         border : none;
-        margin-left: 49px;
-        padding: 1rem 2rem;
+        padding: 1rem;
+        margin-top: 5px;
+        margin-left: 2rem;
         width: 80%;
         border-radius: 10px;
         cursor: pointer;
@@ -44,7 +48,7 @@
 
 }
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 800px) {
     #menu > div {
         flex-direction: column;
     }
