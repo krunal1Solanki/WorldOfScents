@@ -1,0 +1,56 @@
+@import "color";
+.MenuCard {
+    background-color: white;
+    width: 30%; 
+    border-radius: 20px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.495);
+    > div {
+        border-radius: 20px 20px 0 0;
+        background-color: $red;
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+        color: white;
+        height: 4rem;
+    }
+    > main > img {
+        height: 15rem;
+        width: 100%;
+        object-fit: contain;
+
+        
+    }
+    
+    main > h5 {
+        font-size: 1.9rem;
+    }
+
+    main > p {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 1 rem 0;
+    }
+
+    main > button {
+        background-color: $red;
+        color: white;
+        border : none;
+        margin-left: 49px;
+        padding: 1rem 2rem;
+        width: 80%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width : 600px) {
+    #menu > div {
+        flex-direction: column;
+    }
+    .MenuCard {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+}
