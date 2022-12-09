@@ -1,0 +1,61 @@
+@import 'color';
+
+.orderDetails {
+    background-color: $pink;
+    width: 100%;
+
+    > main {
+        background-color: white;
+        max-width: 900px;
+        margin: auto;
+        padding: 2rem;
+        overflow-x: auto;
+        > h1 {
+            text-transform: uppercase;
+            text-align: center;
+            margin: 3rem;
+        }
+
+        > div {
+            margin: 2rem 0;
+            text-align: center;
+            > h1 {
+                font-size: 1.8rem;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+            }
+
+            > p{
+                font-weight: 200;
+                letter-spacing: 2px;
+                margin: 2rem;
+                > b {
+                    margin-right: 6px;
+                }
+            }
+        }
+
+        > article {
+             > h1 {
+                font-weight: 1.7rem;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                margin: 2rem 0;
+             }
+
+              > div {
+                background-color: rgb(246,246,246);
+                margin: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 1rem;
+                border-radius: 5px;
+                > h4 {
+                    font-weight: 200;
+                    letter-spacing: 2px;
+                }
+              }
+        }
+    }
+}
